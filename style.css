@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(0, 55, 255); */
+    height: 50vh;
+    width: 80vw;
+    margin: 145px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devPic img {
+    height: 58vh;
+
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 0;
+}
+
+.hello {
+    font-size: 3em;
+    margin: 23px;
+    margin-block: auto
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin: 23px;
+    margin-block: auto
+}
+
+.about {
+    font-size: 2.5em;
+    font-family: 'Rubik', sans-serif;
+    margin: 23px;
+    margin-block: auto
+}
+
+.moreabout {
+    font-size: 2.4em;
+    margin: 23px;
+    margin-block: auto
+}
+
+.buttons {
+    margin-top: 34px;
+    text-decoration: none;
+    font-size: 7px;
+}
+
+#indexbutton {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 23px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btn-sm {
+    margin: 12px;
+    font-size: 11px;
+    padding: 9px;
+    box-shadow: inset;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(237, 26, 11);
+}
+
+.contactform {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 20px;
+    padding-top: 40px;
+    margin: 0 88px;
+}
+
+.contactform h1 {
+    text-align: center;
+
+}
+
+.contactform form div {
+    padding: 10px 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+.contactform form{
+    margin: 0 40px;  
+}
+
+#emailHelp {
+    color: brown;
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 3px 0;
+}
+
+#form-check {
+    width: 2px;
+    flex-direction: row;
+    width: 3000px;
+}
+
+.blogcontainer{
+    margin: 0 88px;
+}
+
+.intro{
+    margin: 0 88px;
+}
+
+.blogitem {
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.blogcontainer h1 {
+    margin: 23px;
+}
+
+.blogcontainer h2 {
+    margin: 23px;
+}
+
+#skillcontainer {
+    padding: 12px;
+}
+
+.skill {
+    width: 151px;
+    height: 17px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.hundred {
+    width: 265px;
+    background-color: rgb(255, 145, 0);
+    height: 12px;
+
+}
+
+.s5 {
+    width: 175px;
+    background-color: palegreen;
+    height: 12px;
+}
+
+.fifty {
+    width: 125px;
+    background-color: blue;
+    height: 12px;
+}
+
+.t5 {
+    width: 75px;
+    background-color: cyan;
+    height: 12px;
+}
+
+.navcontrol{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.close{
+    margin-top: -3px;
+    margin-left: 162px;
+    width: 31px;
+}
+
+.sidebargo {
+    transform: translate(-409px, 0);
+    position: absolute;
+}
+
+@media (max-width: 1300px) {
+    /* * {
+        background-color: rgb(233, 198, 198);
+    } */
+    .devinfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogcontainer, .contactform{
+        margin: 50px 8px;
+    }
+}
